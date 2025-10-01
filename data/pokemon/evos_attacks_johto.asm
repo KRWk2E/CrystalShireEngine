@@ -101,6 +101,7 @@ EvosAttacksPointers2::
 	dw LugiaEvosAttacks
 	dw HoOhEvosAttacks
 	dw CelebiEvosAttacks
+	dw RattataAlolaAttacks
 .IndirectEnd::
 
 ChikoritaEvosAttacks:
@@ -162,6 +163,18 @@ CyndaquilEvosAttacks:
 	dbw 27, FLAME_WHEEL
 	dbw 36, SWIFT
 	dbw 46, FLAMETHROWER
+	dbw 47, IRON_HEAD
+	dbw 47, BRICK_BREAK
+	dbw 47, BUG_BUZZ
+	dbw 47, DRAGON_CLAW
+	dbw 47, MOONBLAST
+	dbw 47, DAZZLE_GLEAM
+	dbw 47, FAIRY_WIND
+	dbw 47, SHADOW_SNEAK
+	dbw 47, CALM_MIND
+	dbw 47, MUD_SHOT
+	dbw 47, DRAGON_DANCE
+	dbw 47, DRAIN_KISS             
 	db 0 ; no more level-up moves
 
 QuilavaEvosAttacks:
@@ -521,7 +534,7 @@ MarillEvosAttacks:
 	dbbw EVOLVE_LEVEL, 18, AZUMARILL
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
-	dbw 3, DEFENSE_CURL
+	dbw 3, FAIRY_WIND
 	dbw 6, TAIL_WHIP
 	dbw 10, WATER_GUN
 	dbw 15, ROLLOUT
@@ -541,7 +554,8 @@ AzumarillEvosAttacks:
 	dbw 10, WATER_GUN
 	dbw 15, ROLLOUT
 	dbw 25, BUBBLEBEAM
-	dbw 36, DOUBLE_EDGE
+	dbw 29, ICE_PUNCH
+	dbw 36, MOONBLAST
 	dbw 48, RAIN_DANCE
 	db 0 ; no more level-up moves
 
@@ -1402,6 +1416,20 @@ CelebiEvosAttacks:
 	dbw 30, FUTURE_SIGHT
 	dbw 40, BATON_PASS
 	dbw 50, PERISH_SONG
+	db 0 ; no more level-up moves
+
+RattataAlolaAttacks:
+	db 0
+	dbw 1, TACKLE
+	dbw 1, TAIL_WHIP
+	dbw 4, QUICK_ATTACK
+	dbw 7, FOCUS_ENERGY
+	dbw 10, BITE
+	dbw 13, PURSUIT
+	dbw 16, HYPER_FANG
+	dbw 22, CRUNCH
+	dbw 28, SUPER_FANG
+	dbw 31, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 ENDSECTION

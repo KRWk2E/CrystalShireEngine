@@ -230,7 +230,7 @@ MovesGen2:
 	move EFFECT_LOCK_ON,             0, NORMAL,        100,  5,   0      ;LOCK_ON
 	move EFFECT_RAMPAGE,            90, DRAGON,        100, 15,   0      ;OUTRAGE
 	move EFFECT_SANDSTORM,           0, ROCK,          100, 10,   0      ;SANDSTORM
-	move EFFECT_LEECH_HIT,          60, GRASS,         100,  5,   0      ;GIGA_DRAIN
+	move EFFECT_LEECH_HIT,          75, GRASS,         100, 10,   0      ;GIGA_DRAIN
 	move EFFECT_ENDURE,              0, NORMAL,        100, 10,   0      ;ENDURE
 	move EFFECT_ATTACK_DOWN_2,       0, NORMAL,        100, 20,   0      ;CHARM
 	move EFFECT_ROLLOUT,            30, ROCK,           90, 20,   0      ;ROLLOUT
@@ -280,6 +280,20 @@ MovesGen2:
 	move EFFECT_DEFENSE_DOWN_HIT,   20, FIGHTING,      100, 15,  50      ;ROCK_SMASH
 	move EFFECT_TRAP_TARGET,        15, WATER,          70, 15,   0      ;WHIRLPOOL
 	move EFFECT_BEAT_UP,            10, DARK,          100, 10,   0      ;BEAT_UP
+; new moves
+	move EFFECT_FLINCH_HIT,         80, STEEL,		   100, 15,  30      ;IRON_HEAD
+	move EFFECT_NORMAL_HIT,         75, FIGHTING,	   100, 15, 100      ;BRICK_BREAK
+	move EFFECT_SP_DEF_DOWN_HIT,    90, BUG,		   100, 10,  10      ;BUG_BUZZ
+	move EFFECT_NORMAL_HIT,         80, DRAGON,		   100, 15,   0      ;DRAGON_CLAW
+	move EFFECT_SP_ATK_DOWN_HIT,    80, FAIRY,		   100, 15,  30      ;MOONBLAST
+	move EFFECT_NORMAL_HIT,         80, FAIRY,		   100, 10,   0      ;DAZZLE_GLEAM
+	move EFFECT_FLINCH_HIT,         40, FAIRY,		   100, 30,   0      ;FAIRY_WIND
+	move EFFECT_PRIORITY_HIT,       40, GHOST,		   100, 30,  30      ;SHADOW_SNEAK
+	move EFFECT_CALM_MIND,			 0, PSYCHIC_TYPE,  100, 20,   0      ;CALM_MIND
+	move EFFECT_SPEED_DOWN_HIT,		55, GROUND,		   100, 15, 100      ;MUD_SHOT
+	move EFFECT_DRAGON_DANCE,		80, DRAGON,		   100, 20,   0      ;DRAGON_DANCE
+	move EFFECT_LEECH_HIT,			60, FAIRY,		   100, 15,  30      ;DRAIN_KISS
+	move EFFECT_DOUBLE_HIT,			45, FLYING,		   100, 10,  30      ;DUAL_WINGBEAT
 .IndirectEnd::
 
 POPS

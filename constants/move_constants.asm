@@ -258,6 +258,20 @@ DEF GEN1_MOVES EQU const_value - 1
 	const ROCK_SMASH   ; f9
 	const WHIRLPOOL    ; fa
 	const BEAT_UP      ; fb
+; new moves
+	const IRON_HEAD    ; fc
+	const BRICK_BREAK  ; fd
+	const BUG_BUZZ	   ; fe
+	const DRAGON_CLAW  ; ff
+	const MOONBLAST    ; 100
+	const DAZZLE_GLEAM ; 101
+	const FAIRY_WIND   ; 102
+	const SHADOW_SNEAK ; 103
+	const CALM_MIND    ; 104
+	const MUD_SHOT     ; 105
+	const DRAGON_DANCE ; 106
+	const DRAIN_KISS   ; 107
+	const DUAL_WINGBEAT; 108
 DEF GEN2_MOVES EQU const_value - 1
 
 DEF NUM_ATTACKS EQU const_value - 1

@@ -101,6 +101,7 @@ EggMovePointers2::
 	dw NoEggMoves2
 	dw NoEggMoves2
 	dw NoEggMoves2
+	dw RattataAlolaEggMoves
 .IndirectEnd::
 
 ChikoritaEggMoves:
@@ -467,6 +468,15 @@ LarvitarEggMoves:
 	dw FOCUS_ENERGY
 	dw ANCIENTPOWER
 NoEggMoves2:
+	dw -1 ; end
+
+RattataAlolaEggMoves:
+	dw BITE
+	dw COUNTER
+	dw FLAME_WHEEL
+	dw FURY_SWIPES
+	dw REVERSAL
+	dw SCREECH
 	dw -1 ; end
 
 ENDSECTION

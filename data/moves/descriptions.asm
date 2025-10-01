@@ -260,6 +260,20 @@ MoveDescriptionsGen2:
 	dw RockSmashDescription
 	dw WhirlpoolDescription
 	dw BeatUpDescription
+; new moves
+	dw IronHeadDescription
+	dw BrickBreakDescription
+	dw BugBuzzDescription
+	dw DragonClawDescription
+	dw MoonblastDescription
+	dw DazzleGleamDescription
+	dw FairyWindDescription
+	dw ShadowSneakDescription
+	dw CalmMindDescription
+	dw MudShotDescription
+	dw DragonDanceDescription
+	dw DrainKissDescription
+	dw DualWingbeatDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1268,3 +1282,55 @@ WhirlpoolDescription:
 BeatUpDescription:
 	db   "Party #MON join"
 	next "in the attack.@"
+
+IronHeadDescription:
+	db   "Hits with very"
+	next "solid head.@"
+	
+BrickBreakDescription:
+	db   "Does not shatter"
+	next "SCREENS yet.@"
+
+BugBuzzDescription:
+	db   "An attack that may"
+	next "lower SP. DEF.@"
+
+DragonClawDescription:
+	db   "Hits with"
+	next "fierce claws.@"
+
+MoonblastDescription:
+	db   "An attack that may"
+	next "lower SP. ATK.@"
+	
+DazzleGleamDescription:
+	db   "Hits with very"
+	next "solid head.@"
+	
+FairyWindDescription:
+	db   "Blows weak gust"
+	next "of wind.@"
+	
+ShadowSneakDescription:
+	db   "Nearly always moves"
+	next "first.@"
+	
+CalmMindDescription:
+	db   "Calms to raise SP."
+	next "ATK and SP. DEF.@"
+	
+MudShotDescription:
+	db   "An attack that"
+	next "lowers SPEED.@"
+	
+DragonDanceDescription:
+	db   "Readies the users"
+	next "ATTACK and SPEED.@"
+	
+DrainKissDescription:
+	db   "Sweetly drains"
+	next "50% dmg dealt.@"
+	
+DualWingbeatDescription:
+	db   "Hits twice using"
+	next "its wings"

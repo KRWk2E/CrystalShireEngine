@@ -272,6 +272,87 @@ DEF JOHTO_POKEMON EQU const_value
 	const LUGIA      ; f9
 	const HO_OH      ; fa
 	const CELEBI     ; fb
+	const RATTATA_A  ; fc
+;	const RATICATE_A ; fd
+;	const PIKACHU_P  ; fe
+;   const RAICHU_A   ; ff
+;   const SANDSHREW_A; 100
+;   const SANDSLASH_A; 101
+;   const VULPIX_A   ; 102
+;	const NINETALES_A; 103
+;	const DIGLETT_A  ; 104
+;	const DUGTRIO_A  ; 105
+;	const WIGLETT    ; 106
+;	const WUGTRIO	 ; 107
+;   const MEOWTH_A   ; 108
+;	const PERSIAN_A  ; 109
+;	const MEOWTH_G   ; 10a
+;	const PERSERKER  ; 10b
+;	const ANNIHILAPE ; 10c
+;	const GROWLITHE_H; 10d
+;	const ARCANINE_H ; 10e
+;	const TOEDSCOOL  ; 10f
+;	const TOEDSCRUEL ; 110
+;	const GEODUDE_A  ; 111
+;	const GRAVELER_A ; 112
+;	const GOLEM_A    ; 113
+;	const PONYTA_G   ; 114
+;	const RAPIDASH_G ; 115
+;	const SLOWPOKE_G ; 116
+;	const SLOWBRO_G  ; 117
+;	const SLOWKING_G ; 118
+;	const MAGNEZONE  ; 119
+;	const FARFETCHD_G; 11a
+;	const SIRFETCHD  ; 11b
+;	const GRIMER_A   ; 11c
+;	const MUK_A		 ; 11d
+;	const VOLTORB_H  ; 11e
+;	const ELECTRODE_H; 11f
+;	const EXEGGUTOR_A; 120
+;	const MAROWAK_A  ; 121
+;	const LICKILICKY ; 122
+;	const WEEZING_G  ; 123
+;	const RHYPERIOR  ; 124
+;	const TANGROWTH  ; 125
+;	const MR__MIME_G ; 126
+;	const ELECTIVIRE ; 127
+;	const MAGMORTAR  ; 128
+;	const TAUROS_C   ; 129
+;	const TAUROS_B	 ; 12a
+;	const TAUROS_A   ; 12b
+;	const EEVEE_P	 ; 12c
+;	const LEAFEON	 ; 12d
+;	const GLACEON    ; 12e
+;	const SYLVEON    ; 12f
+;	const PORYGONZ   ; 130
+;	const ARTICUNO_G ; 131
+;	const ZAPDOG_G   ; 132
+;	const MOLTRES_G  ; 133
+;	const TYPHLOSION_H;134
+;	const TOGEKISS   ; 135
+;	const AZURILL 	 ; 136
+;	const BONSLY     ; 137
+;	const AMBIPOM	 ; 138
+;	const YANMEGA    ; 139
+;	const WOOPER_P   ; 13a
+;	const CLODSIRE	 ; 13b
+;	const HONCHKROW  ; 13c
+;	const MISMAGIUS  ; 13d
+;	const FARIGIRAF	 ; 13e
+;	const DUDUNSPARCE; 13f
+;	const GLISCOR    ; 140
+;	const QWILFISH_H ; 141
+;	const WEAVILE    ; 142
+;	const SNEASEL_H  ; 143
+;	const WEAVILE    ; 144
+;	const URSALUNA   ; 145
+;	const URSALUNA_B ; 146
+;	const MAMOSWINE  ; 147
+;	const CORSOLA_G  ; 148
+;	const CURSOLA    ; 149
+;	const MANTYKE    ; 14a
+;	const WYRDEER    ; 14b
+
 DEF NUM_JOHTO_POKEMON EQU const_value - 1
 DEF NUM_POKEMON EQU const_value - 1
 

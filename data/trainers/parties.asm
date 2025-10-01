@@ -508,7 +508,7 @@ BrockGroup:
 	next_list_item ; BROCK (1)
 	db "BROCK@", TRAINERTYPE_MOVES
 	db 41
-	dw GRAVELER
+	dw GRAVELER 
 	dw DEFENSE_CURL, ROCK_SLIDE, ROLLOUT, EARTHQUAKE
 	db 41
 	dw RHYHORN

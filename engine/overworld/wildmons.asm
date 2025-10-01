@@ -958,6 +958,9 @@ RandomPhoneMon:
 	call GetFarByte
 	inc hl
 	ld c, a
+; TRAINERTYPE_NICKNAME has uneven length, so always use the first mon
+	bit TRAINERTYPE_NICKNAME_F, b
+	jr nz, .got_mon
 	ld a, 3
 	bit TRAINERTYPE_ITEM_F, c
 	jr z, .no_item

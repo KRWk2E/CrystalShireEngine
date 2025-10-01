@@ -102,7 +102,19 @@ NewBarkTownTeacherScript:
 	end
 
 NewBarkTownFisherScript:
-	jumptextfaceplayer Text_ElmDiscoveredNewMon
+	loadtrainer BROCK, BROCK1
+	startbattle
+	reloadmapafterbattle
+	setevent EVENT_BEAT_BROCK
+	setevent EVENT_BEAT_CAMPER_JERRY
+	opentext
+	writetext ReceivedBoulderBadgeText
+	playsound SFX_GET_BADGE
+	waitsfx
+	setflag ENGINE_BOULDERBADGE
+	waitbutton
+	closetext
+	end
 
 NewBarkTownRivalScript:
 	opentext

@@ -2074,3 +2074,29 @@ DefenseCurl:
 	statupmessage
 	statupfailtext
 	endmove
+	
+CalmMind:
+	checkobedience
+	usedmovetext
+	doturn
+	specialattackup
+	specialdefenseup
+	lowersub
+	statupanim
+	raisesub
+	statupmessage
+	statupfailtext
+	endmove
+	
+DragonDance:
+	checkobedience
+	usedmovetext
+	doturn
+	attackup
+	speedup
+	lowersub
+	statupanim
+	raisesub
+	statupmessage
+	statupfailtext
+	endmove

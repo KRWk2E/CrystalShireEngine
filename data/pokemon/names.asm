@@ -255,4 +255,12 @@ PokemonNames::
 	dname "LUGIA"
 	dname "HO-OH"
 	dname "CELEBI"
+	dname "RATTATA"
+;	dname "RATICATE"
+;	dname "PIKACHU"
+;	dname "RAICHU"
+;	dname "SANDSHREW"
+;	dname "SANDSLASH"
+;	dname "VULPIX"
+;	dname "NINETALES"
 	assert_table_length NUM_POKEMON

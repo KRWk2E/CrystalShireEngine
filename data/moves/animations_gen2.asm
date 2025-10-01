@@ -85,6 +85,20 @@ BattleAnimationsGen2::
 	dw BattleAnim_RockSmash
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
+; new moves
+	dw BattleAnim_IronHead
+	dw BattleAnim_BrickBreak
+	dw BattleAnim_BugBuzz
+	dw BattleAnim_DragonClaw
+	dw BattleAnim_Moonblast
+	dw BattleAnim_DazzleGleam
+	dw BattleAnim_FairyWind
+	dw BattleAnim_ShadowSneak
+	dw BattleAnim_CalmMind
+	dw BattleAnim_MudShot
+	dw BattleAnim_DragonDance
+	dw BattleAnim_DrainKiss
+	dw BattleAnim_DualWingbeat
 .IndirectEnd::
 
 BattleAnim_Sketch:
@@ -125,7 +139,18 @@ BattleAnim_TripleKick:
 	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 132, 32, $0
 	anim_wait 8
 	anim_ret
-
+	
+BattleAnim_BrickBreak:
+BattleAnim_BugBuzz:
+BattleAnim_DragonClaw:
+BattleAnim_Moonblast:
+BattleAnim_DazzleGleam:
+BattleAnim_FairyWind:
+BattleAnim_ShadowSneak:
+BattleAnim_CalmMind:
+BattleAnim_MudShot:
+BattleAnim_DragonDance:
+BattleAnim_DrainKiss:
 BattleAnim_Thief:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_call BattleAnim_TargetObj_1Row
@@ -838,6 +863,7 @@ BattleAnim_FuryCutter:
 	anim_jumpuntil .loop
 	anim_ret
 
+BattleAnim_DualWingbeat:
 BattleAnim_SteelWing:
 	anim_1gfx BATTLE_ANIM_GFX_REFLECT
 	anim_obp0 $0
@@ -1415,6 +1441,7 @@ BattleAnim_SunnyDay:
 	anim_wait 128
 	anim_ret
 
+BattleAnim_IronHead:
 BattleAnim_MirrorCoat:
 	anim_2gfx BATTLE_ANIM_GFX_REFLECT, BATTLE_ANIM_GFX_SPEED
 	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
